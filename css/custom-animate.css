@@ -1,0 +1,100 @@
+
+@keyframes rotateScale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotateScale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes rotateScale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes rotateScale {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}
+
+.service-block-three .text-col .icon{
+    -webkit-animation-name: rotateScale; 
+    -webkit-animation-duration: 30s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-animation-name: rotateScale; 
+    -moz-animation-duration: 30s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    -ms-animation-name: rotateScale; 
+    -ms-animation-duration: 30s; 
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: rotateScale; 
+    animation-duration: 30s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes animateBubble{0%{margin-top:20%}100%{margin-top:-30%}}@-moz-keyframes animateBubble{0%{margin-top:20%}100%{margin-top:-30%}}@keyframes animateBubble{0%{margin-top:20%}100%{margin-top:-30%}}
+@-webkit-keyframes sideWays{0%{margin-left:0}100%{margin-left:25px}}@-moz-keyframes sideWays{0%{margin-left:0}100%{margin-left:25px}}@keyframes sideWays{0%{margin-left:0}100%{margin-left:25px}}
+
+.faded-text{
+-webkit-animation:linear infinite alternate;
+-webkit-animation-name: run;
+-webkit-animation-duration: 25s;
+-ms-animation:linear infinite alternate;
+-ms-animation-name: run;
+-ms-animation-duration: 25s;
+-moz-animation:linear infinite alternate;
+-moz-animation-name: run;
+-moz-animation-duration: 25s;
+}     
+
+@-webkit-keyframes run {
+    0% { left: -30%;}
+    50%{ left : 0%;}
+    100%{ left: 30%;}
+}
+
+@-moz-keyframes run {
+    0% { left: -30%;}
+    50%{ left : 0%;}
+    100%{ left: 30%;}
+}     
+
+@-webkit-keyframes upDown {
+    0% { top: 0%; left: -200px;}
+    50%{ top : -30%;left: -200px;}
+    100%{ top: 0%;left: -200px;}
+}
+
+@-moz-keyframes upDown {
+    0% { top: 0%; left: -200px;}
+    50%{ top : -30%;left: -200px;}
+    100%{ top: 0%;left: -200px;}
+}
+
+@keyframes upDown {
+    0% { top: 0%; left: -200px;}
+    50%{ top : -30%;left: -200px;}
+    100%{ top: 0%;left: -200px;}
+}
